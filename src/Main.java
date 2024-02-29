@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        Author aa = new Author("Морган", "Фримэн");
-        Book book = new Book("Сквозь кротовую нору", 2010, aa);
+        Author aa = new Author("Владимир", "Маяковский");
+        Book book = new Book("Сборник стихов", 2010, aa);
         book.setYear(2011);
         System.out.println("Книга называется - " + book.getTitle() + ", она издана в " + book.getYear() + " году. А автора этой книги зовут " + aa.getName() + " " + aa.getSurname());
 
